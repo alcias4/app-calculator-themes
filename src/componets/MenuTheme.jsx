@@ -34,7 +34,7 @@ export function MenuThemes ({themeFunc, theme}) {
           <div ref={buton} style={{background: theme.circulo}} className="circulo"></div>
           {
             btn.map((e)=>{
-              return <button onClick={()=> handleOnclick(e)} key={e}></button>
+              return <label onClick={()=> handleOnclick(e)} key={e}></label>
             })
           }
         </section>

@@ -140,7 +140,7 @@ main{
   justify-content: space-around;
   position: relative;
 }
-.pa  button{
+.pa  label{
   width: 25%;
   height: 90%;
   cursor: pointer;
