@@ -19,7 +19,7 @@ export function Calculator ({theme}) {
   return (
     <div className="calc"  >
       <div className="panel" style={{background: theme.input, color:theme.colorResto}}  >
-        <input type="text" disabled  value={resul.join('')} style={{color: theme.colorResto}} />
+        <label className="val" style={{color: theme.colorResto}}>{resul.join('')}</label>
       </div>
       <section style={{background: theme.calculadoraFondo}}>
         <ul className="teclado" >
